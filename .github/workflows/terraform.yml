@@ -87,6 +87,6 @@ jobs:
               body: output
             })
 
-      - name: Terraform Apply
+      - name: Terraform Plan (Main)
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: terraform apply -auto-approve -input=false
+        run: terraform plan -no-color -input=false

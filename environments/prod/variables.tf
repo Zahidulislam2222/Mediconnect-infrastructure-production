@@ -14,7 +14,8 @@ variable "aws_region" {
 }
 
 variable "gcp_project_id" {
-  type = string
+  type    = string
+  default = "mediconnect-dummy-id"
 }
 
 variable "gcp_region" {
@@ -33,9 +34,11 @@ variable "azure_failover_location" {
 }
 
 variable "aws_kms_key_id" {
-  type = string
+  type    = string
+  default = "00000000-0000-0000-0000-000000000000"
 }
 
 variable "kms_key_arn" {
-  type = string
+  type    = string
+  default = "arn:aws:kms:eu-west-1:000000000000:key/00000000-0000-0000-0000-000000000000"
 }
