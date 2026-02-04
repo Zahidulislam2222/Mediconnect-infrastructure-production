@@ -1,0 +1,10 @@
+{
+  "name": "mediconnect-video-service",
+  "version": "1.0.0",
+  "description": "HIPAA-compliant Video Service",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1500.0",
+    "uuid": "^9.0.1"
+  }
+}

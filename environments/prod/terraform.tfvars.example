@@ -1,0 +1,7 @@
+project             = "mediconnect"
+aws_region          = "eu-central-1"
+gcp_project_id      = "REPLACE_WITH_REAL_GCP_PROJECT_ID"
+gcp_region          = "europe-west1"
+azure_location      = "West Europe"
+azure_failover_location = "North Europe"
+aws_kms_key_id      = "REPLACE_WITH_REAL_KMS_KEY_ARN"
