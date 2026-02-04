@@ -31,7 +31,7 @@ module "aws_compute" {
   source = "../../modules/aws/compute"
   project     = var.project
   environment = var.environment
-  subnet_ids  = module.aws_network.private_subnets
+  subnet_ids  = module.aws_network.private_subnet_ids
 }
 
 module "aws_data" {
